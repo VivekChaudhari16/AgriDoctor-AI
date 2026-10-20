@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Large / private files - never commit these
+*.pth
+*.pt
+agri_field_data/
+my_test_photos/
+data/
+streamlit.log
+.DS_Store
+Thumbs.db

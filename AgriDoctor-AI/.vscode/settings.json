@@ -1,0 +1,5 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "files.exclude": { "**/__pycache__": true, "**/.ipynb_checkpoints": true },
+  "files.eol": "\n"
+}

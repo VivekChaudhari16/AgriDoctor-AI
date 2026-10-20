@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit: AgriDoctor app",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "env": { "AGRIDOCTOR_MODEL_DIR": "${workspaceFolder}/models" },
+      "justMyCode": true
+    },
+    {
+      "name": "Train field model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/training/train_field_model.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
